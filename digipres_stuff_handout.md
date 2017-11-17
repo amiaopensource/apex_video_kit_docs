@@ -6,7 +6,7 @@
 
 ### Data Loss
 
-### Obsolesence
+### Obsolescence
 
 ## Redundant Storage (aka "Backing Up")
 
