@@ -2,18 +2,21 @@
 
 ## Equipment List
 
-1. Time Base Corrector (TBC)
-2. Distribution Amplifier
-3. Capture Card
-4. CRT Monitor
-5. Direct Box
-6. Audio Mixer
-7. Speakers / Headphones
-8. All of the cables and connectors (link to cable bible?)
-9. Video Deck (not included in kit)
+1. Video Deck (not included in kit)
+2. Time Base Corrector (TBC)
+3. Distribution Amplifier
+4. Capture Card
+5. CRT Monitor
+6. Direct Box
+7. Audio Mixer
+8. Speakers / Headphones
+9. All of the cables and connectors (link to cable bible?)
 10. Laptop running vrecord or Blackmagic Media Express (link to vrecord github page)
 11. Option for external scopes (waveform monitor and vectorscope)
 
+
+## Video Deck (not inluded in kit)
+This traveling video digitization station was designed to be small enough to fit inside of a suitcase, and include everything necessary to digitize an analog video tape with the exception of a playback device. What kind of video deck you need depends on the format of video tape you want to digitize. This basic digitization station set up will work with most formats of analog video, from 1/2" open reel to cassette formats like VHS, U-Matic, Betacam, and many others. For some smaller tape formats like Hi8 and MiniDV, it is possible to use a camera, rather than a deck, to digitize from. 
 
 ## Time Base Corrector (TBC)
 The "heartbeat" of the video digitization system, the Time Base Corrector (or TBC for short) is important stabalizing the video signal during the transfer process. The TBC can also correct for some processing errors inherent to the original analog video signal, including compenating for minor droouts. With a TBC, one can also make adjustments to the video signal (and also the audio signal depending on the TBC), including adjusting the brightness, contrast, hue, and saturation. Making these signal adjustments with a TBC can help ensure the values of the video signal are within legal broadcast range. 
