@@ -32,3 +32,8 @@ The audio mixer is used to make adjustments to the audio levels. This includes r
 
 ## Speakers / Headphones
 The audio levels should be checked on both the pre-digitization and post-digitization sides of the video digitization system in order to ensure that the integrity and qualiyu of the audio signal is maintained throughout. Headphones can be attached to the audio mixer to monitor the pre-digitization audio levels. Speakers can be attached to the capture card or the digitizing computer to monitor the post-digitization audio levels during transfer. Note that there may short delay when listening to the audio on the post-digitizing side of the station. It is not a cause for alarm if the post-digitized audio is delayed a few seconds from the pre-digitized audio. 
+
+## Computer and Digitization Software
+
+In order to digitize video, you need a computer and software that is compatible with both the capture card  and computer you are using. There are many different types of software you can use. The BlackMagic Ultra Studio Express capture card comes with its own digitization software called Blackmagic Media Express. There is also vrecord, which is a free and open source software written by archivists for archivists. Currently, vrecord can only be used with BlackMagic capture cards, but it is constantly being updated and may be compatible with other cards in the future. You can also use regular video editing software for digitization such as Adobe Premiere, DaVinci Resolve, and Final Cut Pro. There are also other brands of capture cards, such as those made by the company AJA, that come with their own digitization software. 
+
