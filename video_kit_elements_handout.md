@@ -23,3 +23,6 @@ A distriubtion amplifier can send the same single video input to multiple locati
 
 ## Capture Card
 This is where the magic happens! The capture card is the device that converts the video and audio signals from analog waves to digital information. There are different types of capture cards available that can work with different kinds of computers and software.
+
+## Direct Box
+A direct box is used to convert unbalanced audio (such as from an RCA connection) to balanced left and right audio (such as from an XLR connection) for higher quality recordings. Depending on what kind of deck you are using to digitize and whether or not it is professional or consumer-grade, you may not need to use a direct box. If your deck has XLR outputs, a direct box is not necessary. If your deck only has RCA audio outputs, then it is recommended to use a direct box to create a balanced audio signal. 
