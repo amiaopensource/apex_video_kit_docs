@@ -20,3 +20,6 @@ The "heartbeat" of the video digitization system, the Time Base Corrector (or TB
 
 ## Distribution Amplifier
 A distriubtion amplifier can send the same single video input to multiple locations simultaneously. For example, using a distribution amplifier, one can view a video on a monitor screen while also sending the same signal to a capture card for digitization. Regardless of how many places the signal is going, it will retain its strength and quality in each piece of equipment. 
+
+## Capture Card
+This is where the magic happens! The capture card is the device that converts the video and audio signals from analog waves to digital information. There are different types of capture cards available that can work with different kinds of computers and software.
