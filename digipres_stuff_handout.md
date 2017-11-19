@@ -1,24 +1,37 @@
 # Digitial Preservation Basics
 
+## Introduction: There Is No Escape
+
+![](https://github.com/amiaopensource/apex_video_kit_docs/blob/master/digipres_images/a85.jpg "There is no escape from digital preservation!")
+
+Whether you're working with  born-digital or or analog material that has become digital through digitization, understanding the principals of  . 
+
 ## Threats to Digital Information
 
-### Data Rot
+### Data Degredation/Data Rot
+
+
 
 ### Data Loss
 
 ### Obsolescence
 
-## Redundant Storage (aka "Backing Up")
+## Digital Preservation Strategies
 
-### Gold Standard for Redundant Storage
+### Redundant Storage (aka "Backing Up")
+
+#### Gold Standard for Redundant Storage
 3 identical copies, in three geographically separated locations, on different types of storage media
 
-## Checksums
+## Checking the Data Integrity of Files
 ### What is a Checksum?
 A checksum is like a file's fingerprint. If one bit of the file changes, the checksum will change dramatically
 
 ### Why create Checksums?
 ### Checksum Algorithms
+#### MD5
+#### SHA1
+#### SHA2 (aka SHA256)
 
 
 ## File Naming and Directory Structure
