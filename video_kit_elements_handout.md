@@ -26,3 +26,6 @@ This is where the magic happens! The capture card is the device that converts th
 
 ## Direct Box
 A direct box is used to convert unbalanced audio (such as from an RCA connection) to balanced left and right audio (such as from an XLR connection) for higher quality recordings. Depending on what kind of deck you are using to digitize and whether or not it is professional or consumer-grade, you may not need to use a direct box. If your deck has XLR outputs, a direct box is not necessary. If your deck only has RCA audio outputs, then it is recommended to use a direct box to create a balanced audio signal. 
+
+## Audio Mixer
+The audio mixer is used to make adjustments to the audio levels. This includes raising or lowering the audio levels (making them louder or quieter), adjusting the gain, and monitoring mono and stereo channels. Depending on what kind of TBC you are using, some of these adjustments could be made on the TBC instead of the audio mixer.
