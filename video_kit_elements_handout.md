@@ -15,7 +15,7 @@
 11. Option for external scopes (waveform monitor and vectorscope)
 
 
-## Video Deck (not inluded in kit)
+## Video Deck (not included in kit)
 This traveling video digitization station was designed to be small enough to fit inside of a suitcase, and include everything necessary to digitize an analog video tape with the exception of a playback device. What kind of video deck you need depends on the format of video tape you want to digitize. This basic digitization station set up will work with most formats of analog video, from 1/2" open reel to cassette formats like VHS, U-Matic, Betacam, and many others. For some smaller tape formats like Hi8 and MiniDV, it is possible to use a camera, rather than a deck, to digitize from. 
 
 ## Time Base Corrector (TBC)
