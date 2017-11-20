@@ -31,7 +31,7 @@ Some professional video deck models have a Time Base Corrector built in. If you 
 ## Distribution Amplifier
 A distriubtion amplifier can send the same video signal to multiple locations simultaneously. For example, using a distribution amplifier, one can view a video on a monitor screen while also sending the same signal to a capture card for digitization. Regardless of how many places the signal is going, it will retain its strength and quality in each piece of equipment. 
 
-The distribution amplifier used in this kit can be found here: https://www.amazon.com/C2G-Cables-Go-41066-Distribution/dp/B0002J2Q10/ref=sr_1_3?ie=UTF8&qid=1492536660&sr=8-3&keywords=rca+video+distribution+amplifier
+The distribution amplifier used in this kit can be found here: https://www.amazon.com/C2G-Cables-Go-41066-Distribution/dp/B0002J2Q10/
 
 ## CRT Monitor
 The goal of digitization is to produce a digital video file that looks as close as possible to the original analog tape. Analog video will always look different in digital form, but using a CRT monitor during digization can help maintain the authenticity of the original. Using a CRT as a reference monitor, one can make adjustments to the signal in order to make the post-digitized video match as closely as possible to the pre-digitized video. Note that before digitization, it is necessary to calibrate both the monitor you are using to view the content to ensure that the CRT monitor is accurately displaying your tape.
@@ -42,12 +42,11 @@ Scopes such as waveform monitors and vectorscopes are an important tool in calib
 ## Direct Box
 A direct box is used to convert unbalanced audio (such as from an RCA connection) to balanced left and right audio (such as from an XLR connection) for higher quality recordings. Depending on what kind of deck you are using to digitize and whether or not it is professional or consumer-grade, you may not need to use a direct box. If your deck has XLR outputs, a direct box is not necessary. If your deck only has RCA audio outputs, then it is recommended to use a direct box to create a balanced audio signal. 
 
-The direct box used in this kit can be found here: https://www.amazon.com/Pyle-Pro-PDC22-Instrument-Balanced-Unbalanced/dp/B0027V760M/ref=sr_1_1?ie=UTF8&qid=1492456929&sr=8-1&keywords=Pyle-Pro%2BPDC22%2BDual%2B1%2F4%27%27%2BInstrument%2BTo%2BBalanced%2B%26%2BUnbalanced%2B(1%2F4%27%27%2FXLR)%2BDirect%2BBox&th=1
-
+The direct box used in this kit can be found here: https://www.amazon.com/Pyle-Pro-PDC22-Instrument-Balanced-Unbalanced/dp/B0027V760M/
 ## Audio Mixer
 The audio mixer is used to make adjustments to the audio levels. This includes raising or lowering the audio levels (making them louder or quieter), adjusting the gain, and monitoring mono and stereo channels. Depending on what kind of TBC you are using, some of these adjustments could be made on the TBC instead of the audio mixer.
 
-The audio mixed used in this kit: https://www.amazon.com/YAMAHA-6-channel-mixing-console-MG06/dp/B00I0Q8JNQ/ref=sr_1_4?ie=UTF8&qid=1492116756&sr=8-4&keywords=audio+mixer+yamaha
+The audio mixed used in this kit: https://www.amazon.com/YAMAHA-6-channel-mixing-console-MG06/dp/B00I0Q8JNQ/
 
 ## Speakers and Headphones
 The audio levels should be checked on both the pre-digitization and post-digitization sides of the video digitization system in order to ensure that the integrity and qualiyu of the audio signal is maintained throughout. Headphones can be attached to the audio mixer to monitor the pre-digitization audio levels. Speakers can be attached to the capture card or the digitizing computer to monitor the post-digitization audio levels during transfer. Note that there may short delay when listening to the audio on the post-digitizing side of the station. It is not a cause for alarm if the post-digitized audio is delayed a few seconds from the pre-digitized audio. 
