@@ -1,5 +1,7 @@
 # Explanation of Video Kit Elements
 
+Written by Savannah Campbell. Last updated November 2017. 
+
 ## Equipment List
 
 1. [Video Deck (not included in this kit)](#video-deck)
