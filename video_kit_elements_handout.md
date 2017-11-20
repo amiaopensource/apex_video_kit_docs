@@ -2,8 +2,8 @@
 
 ## Equipment List
 
-1. Video Deck (not included in kit)
-2. Time Base Corrector (TBC)
+1. [Video Deck (not included in this kit)](#video-deck)
+2. [Time Base Corrector (TBC)](#time-base-corrector)
 3. Distribution Amplifier
 4. Capture Card
 5. CRT Monitor
@@ -15,10 +15,10 @@
 11. Option for external scopes (waveform monitor and vectorscope)
 
 
-## Video Deck (not included in kit)
+## Video Deck 
 This traveling video digitization station was designed to be small enough to fit inside of a suitcase, and include everything necessary to digitize an analog video tape with the exception of a playback device. What kind of video deck you need depends on the format of video tape you want to digitize. This basic digitization station set up will work with most formats of analog video, from 1/2" open reel to cassette formats like VHS, U-Matic, Betacam, and many others. For some smaller tape formats like Hi8 and MiniDV, it is possible to use a camera, rather than a deck, to digitize from. 
 
-## Time Base Corrector (TBC)
+## Time Base Corrector
 The "heartbeat" of the video digitization system, the Time Base Corrector (or TBC for short) is important stabalizing the video signal during the transfer process. The TBC can also correct for some processing errors inherent to the original analog video signal, including compenating for minor droouts. With a TBC, one can also make adjustments to the video signal (and also the audio signal depending on the TBC), including adjusting the brightness, contrast, hue, and saturation. Making these signal adjustments with a TBC can help ensure the values of the video signal are within legal broadcast range. 
 
 The Time Base Corrector used in this video kit is the AV Toolbox AVT-8710 (available here: https://www.amazon.com/Blackmagic-Design-BDLKULSDEXPRESS-UltraStudio-Express/dp/B008RTY2XC). It is a small and compact TBC that has less features than a more professional-grade TBC, but will get the job done. This particular TBC can only adjust video levels and not audio levels. 
