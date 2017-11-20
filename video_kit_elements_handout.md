@@ -6,13 +6,13 @@
 2. [Time Base Corrector (TBC)](#time-base-corrector)
 3. [Distribution Amplifier](#distribution-amplifier)
 4. [CRT Monitor (not included in this kit)](#crt-monitor)
-5. [Optional analog waveform monitor and vectorscope (not included in this kit)](#optional-analog-waveform-monitor-and-vectorscope)
+5. [Optional Analog Waveform Monitor and Vectorscope (not included in this kit)](#optional-analog-waveform-monitor-and-vectorscope)
 6. [Direct Box](#direct-box)
 7. [Audio Mixer](#audio-mixer)
 8. [Speakers and Headphones](#speakers-and-headphones)
 9. [Capture Card](#capture-card)
-10. [Cables and connectors](cables-and-connectors)
-11. [Computer and Digitization Software](computer-and-digitization-software)
+10. [Cables and Connectors](#cables-and-connectors)
+11. [Computer and Digitization Software](#computer-and-digitization-software)
 
 
 
