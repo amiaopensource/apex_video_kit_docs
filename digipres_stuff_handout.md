@@ -48,7 +48,7 @@ The following strategies respond to the threats outlined above. Following these 
 ### Redundant Storage (aka "Backing Up")
 
 #### Gold Standard for Redundant Storage
-3 identical copies, in three geographically separated locations, on different types of storage media
+Three identical copies, in three geographically separated locations, on different types of storage media
 
 ## Checking the Data Integrity of Files
 
