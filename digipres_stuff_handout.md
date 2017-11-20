@@ -3,7 +3,6 @@ Written by Jonathan Farbowitz
 Last Updated November 2017
 
 ## Introduction: There Is No Escape
-
 ![](https://github.com/amiaopensource/apex_video_kit_docs/blob/master/digipres_images/a85.jpg "There is no escape from digital preservation!")
 
 Welcome to the world of digital preservation. Whether you find yourself working with born-digital video content or analog material that has become digital through digitization, understanding the principles of digital preservation is key to maintaining an accessible collection and preserving it long-term. Digital preservation sometimes requires a different way of thinking that may not seem intuitive to those familiar with the preservation practices for analog materials. But not to worry, many of core principles of preserving non-digital materials still apply to digital.
@@ -13,18 +12,37 @@ Institutions that are putting significant amounts of time and money into digitiz
 This handout will describe the threats to digital information and the strategies that archivists and IT professionals have developed to mitigate those threats.
 
 ## Threats to Digital Information
-
 Like vinegar syndrome, sticky shed syndrome, and mold digital information has its own set of factors that threaten long-term preservation. 
 
 ### Data Degredation/Data Rot
+Data degredation, also known as "data rot" occurs when the data in a file changes unintentionally. Some people may also call this phenomenon "file corruption." On a long enough timeline, with a large enough set of data, bits within the stored files may "flip". In other words, one bit of a file changes from the original—a bit that was originally a 0 becomes a 1, or a 1 becomes a 0. There are many possible reasons for this, including read/write errors with hard drives or other storage devices or physical decay of the storage device; some even suggest that cosmic background radiation can flip bits.
+
+So, why does it matter that a single bit in a file has flipped? First, from an archival perspective, the file is no longer the original, the zeros and ones that make up the file now have one small difference. There are also practical concerns. In a video file a single flipped bit may never even be noticable to a viewer. However, that depends on where the bit was flipped. The image below proves that one flipped can potentially cause glitchiness in an image. In the worst case scenario a flipped bit in the header of a video file may render the file unplayable.
 
 ![](https://github.com/amiaopensource/apex_video_kit_docs/blob/master/digipres_images/bit_flipped.jpg)
 
-### Data Loss
-
 ### Obsolescence
+Even if exact copies of files are kept intact, there is no guarantee that contemporary computer systems will be able to read and understand these files.
+
+With digital preservation there are two kinds of obsolescence to consider: the obsolescence of storage media and the obsolesence of file formats.
+
+#### Storage Media Obsolesence
+Storage media refers to the physical carriers on which data is stored. These could be hard drives, floppy disks, optical discs, or even punch cards.  Consider this example: how would you go about putting data contained in computer punch cards on your brand new laptop? While this isn't impossible, it would be quite a challenge. From time to time individual companies have created their own specialized storage media and when the company goes out of business or the format becomes unpopular it may be difficult to find drives to read that media. For example, how people have Iomega Zip disk drives on their current computers? How many even have CD/DVD drives?
+
+Digital preservation activities must account for the fact that storage media on computer systems changes all the time and often older storage media is not compatible with newer systems.
+
+#### File Format Obsolesence
+Consider how quickly computing technology has progressed in the last few decades. Different computer programs that were popular in 1995 have now fallen into obscurity. Perhaps these programs had their own file formats that cannot be read by newer programs. Did you ever design a greeting card in Print Shop Deluxe, write a document in WordPerfect, or create a spreadsheet in Lotus 1-2-3? How would you go about accessing these files today? 
+
+Digital preservationists must monitor consider the file formats they acquire for their collections and monitor the file formats they already have in their collections. 
+
+### Data Loss
+Data loss may refer to catatrophic events that could destroy physical equipment like computers, servers, or hard drives. Data deletion or data modification could also be the result of malicious hacking. Just as a flood, hurricane, or tornado could destroy collection materials like books and paper, these natural distasters can impact the safety of data as well if proper measures are not taken. 
+
+Libraries, museums, and archives typically have measures for protecting their physical materials in the event of a disaster. However, every cultural heritage institution must consider its digital components in its disaster plan. Institutions may need to consider its network security protocols and the security of its digital files as well.
 
 ## Digital Preservation Strategies
+The following strategies respond to the threats outlined above. Following these strategies allows cultural heritage institutions to store data safely for the long haul.
 
 ### Redundant Storage (aka "Backing Up")
 
@@ -35,6 +53,8 @@ Like vinegar syndrome, sticky shed syndrome, and mold digital information has it
 
 ### What is a Checksum?
 A checksum is like a file's fingerprint. If one bit of the file changes, the checksum will change dramatically
+
+![](https://github.com/amiaopensource/apex_video_kit_docs/blob/master/digipres_images/Checksum.svg)
 
 ### Why create Checksums?
 ### Checksum Algorithms
