@@ -1,5 +1,5 @@
 # Digitial Preservation Basics
-Written by Jonathan Farbowitz
+Written by [Jonathan Farbowitz](https://jfarbowitz.github.io/)
 Last Updated November 2017
 
 ## Introduction: There Is No Escape
