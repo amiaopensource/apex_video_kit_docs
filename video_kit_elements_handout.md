@@ -33,6 +33,8 @@ The distribution amplifier used in this kit can be found here: https://www.amazo
 ## Capture Card
 This is where the magic happens! The capture card is the device that converts the video and audio signals from analog waves to digital information. There are different types of capture cards available that can work with different kinds of computers and software.
 
+For this digitization kit, we are using the BlackMagic Design UltraStudio Express capture card (https://www.bhphotovideo.com/c/product/857462-REG/Blackmagic_Design_BDLKULSDEXPRESS_UltraStudio_Express.html). This particular card can only be used with Mac computers as it requires a Thunderbolt connection. This capture card also comes with its own video digitization software called BlackMagic Media Express, but it can be used with other digitization softwares as well. 
+
 ## Direct Box
 A direct box is used to convert unbalanced audio (such as from an RCA connection) to balanced left and right audio (such as from an XLR connection) for higher quality recordings. Depending on what kind of deck you are using to digitize and whether or not it is professional or consumer-grade, you may not need to use a direct box. If your deck has XLR outputs, a direct box is not necessary. If your deck only has RCA audio outputs, then it is recommended to use a direct box to create a balanced audio signal. 
 
