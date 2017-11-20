@@ -21,6 +21,10 @@ This traveling video digitization station was designed to be small enough to fit
 ## Time Base Corrector (TBC)
 The "heartbeat" of the video digitization system, the Time Base Corrector (or TBC for short) is important stabalizing the video signal during the transfer process. The TBC can also correct for some processing errors inherent to the original analog video signal, including compenating for minor droouts. With a TBC, one can also make adjustments to the video signal (and also the audio signal depending on the TBC), including adjusting the brightness, contrast, hue, and saturation. Making these signal adjustments with a TBC can help ensure the values of the video signal are within legal broadcast range. 
 
+The Time Base Corrector used in this video kit is the AV Toolbox AVT-8710 (available here: https://www.amazon.com/Blackmagic-Design-BDLKULSDEXPRESS-UltraStudio-Express/dp/B008RTY2XC). It is a small and compact TBC that has less features than a more professional-grade TBC, but will get the job done. This particular TBC can only adjust video levels and not audio levels. 
+
+Some professional video deck models have a Time Base Corrector built in. If you are using one of these video decks, using an external TBC may not be necessary. 
+
 ## Distribution Amplifier
 A distriubtion amplifier can send the same single video input to multiple locations simultaneously. For example, using a distribution amplifier, one can view a video on a monitor screen while also sending the same signal to a capture card for digitization. Regardless of how many places the signal is going, it will retain its strength and quality in each piece of equipment. 
 
