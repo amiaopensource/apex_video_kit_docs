@@ -5,14 +5,15 @@
 1. [Video Deck (not included in this kit)](#video-deck)
 2. [Time Base Corrector (TBC)](#time-base-corrector)
 3. Distribution Amplifier
-4. Capture Card
-5. CRT Monitor
+4. CRT Monitor
+5. Optional analog waveform monitor and vectorscope (not included in this kit)
 6. Direct Box
 7. Audio Mixer
 8. Speakers / Headphones
-9. All of the cables and connectors (link to cable bible?)
-10. Laptop running vrecord or Blackmagic Media Express (link to vrecord github page)
-11. Option for external scopes (waveform monitor and vectorscope)
+9. Capture Card
+10. All of the cables and connectors (link to cable bible?)
+11. Laptop running vrecord or Blackmagic Media Express (link to vrecord github page)
+
 
 
 ## Video Deck 
@@ -30,10 +31,11 @@ A distriubtion amplifier can send the same single video input to multiple locati
 
 The distribution amplifier used in this kit can be found here: https://www.amazon.com/C2G-Cables-Go-41066-Distribution/dp/B0002J2Q10/ref=sr_1_3?ie=UTF8&qid=1492536660&sr=8-3&keywords=rca+video+distribution+amplifier
 
-## Capture Card
-This is where the magic happens! The capture card is the device that converts the video and audio signals from analog waves to digital information. There are different types of capture cards available that can work with different kinds of computers and software.
+## CRT Monitor
+The goal of digitization is to produce a digital video file that looks as close as possible to the original analog tape. Analog video will always look different in digital form, but using a CRT monitor during digization can help maintain the authenticity of the original. Using a CRT as a reference monitor, one can make adjustments to the signal in order to make the post-digitized video match as closely as possible to the pre-digitized video. Note that before digitization, it is necessary to calibrate both the monitor you are using to view the content to ensure that the CRT monitor is accurately displaying your tape.
 
-For this digitization kit, we are using the BlackMagic Design UltraStudio Express capture card (https://www.bhphotovideo.com/c/product/857462-REG/Blackmagic_Design_BDLKULSDEXPRESS_UltraStudio_Express.html). This particular card can only be used with Mac computers as it requires a Thunderbolt connection. This capture card also comes with its own video digitization software called BlackMagic Media Express, but it can be used with other digitization softwares as well. 
+## Optional: Analog Waveform Monitor and Vectorscope
+Scopes such as waveform monitors and vectorscopes are an important tool in calibrating the video signal prior to digitization. Though some digitization softwares such as vrecord include digital representations of these scopes, using analog scopes can be useful to monitor the video signal before it enters the capture card. The waveform monitor displays the luminance of the video signal (the black and white levels) and the vectorscope displays the chrominance (color) information of the video signal. Using these tools, one can make proper adjustments to the brightness, contrast, hue, and saturation of the video signal with the Time Base Corrector (TBC). Though not included in this video kit, an ideal video digitization station would include both external waveform monitors and vectorscopes to monitor the pre-digitized signal, as well as the digital versions of these scopes in vrecord and other softwares in order to ensure that the quality and integrity of the video signal is maintained during digitization. 
 
 ## Direct Box
 A direct box is used to convert unbalanced audio (such as from an RCA connection) to balanced left and right audio (such as from an XLR connection) for higher quality recordings. Depending on what kind of deck you are using to digitize and whether or not it is professional or consumer-grade, you may not need to use a direct box. If your deck has XLR outputs, a direct box is not necessary. If your deck only has RCA audio outputs, then it is recommended to use a direct box to create a balanced audio signal. 
@@ -48,11 +50,11 @@ The audio mixed used in this kit: https://www.amazon.com/YAMAHA-6-channel-mixing
 ## Speakers / Headphones
 The audio levels should be checked on both the pre-digitization and post-digitization sides of the video digitization system in order to ensure that the integrity and qualiyu of the audio signal is maintained throughout. Headphones can be attached to the audio mixer to monitor the pre-digitization audio levels. Speakers can be attached to the capture card or the digitizing computer to monitor the post-digitization audio levels during transfer. Note that there may short delay when listening to the audio on the post-digitizing side of the station. It is not a cause for alarm if the post-digitized audio is delayed a few seconds from the pre-digitized audio. 
 
-## CRT Monitor
-The goal of digitization is to produce a digital video file that looks as close as possible to the original analog tape. Analog video will always look different in digital form, but using a CRT monitor during digization can help maintain the authenticity of the original. Using a CRT as a reference monitor, one can make adjustments to the signal in order to make the post-digitized video match as closely as possible to the pre-digitized video. Note that before digitization, it is necessary to calibrate both the monitor you are using to view the content to ensure that the CRT monitor is accurately displaying your tape.
+## Capture Card
+This is where the magic happens! The capture card is the device that converts the video and audio signals from analog waves to digital information. There are different types of capture cards available that can work with different kinds of computers and software.
 
-## Analog Waveform Monitor and Vectorscope (Optional)
-Scopes such as waveform monitors and vectorscopes are an important tool in calibrating the video signal prior to digitization. Though some digitization softwares such as vrecord include digital representations of these scopes, using analog scopes can be useful to monitor the video signal before it enters the capture card. The waveform monitor displays the luminance of the video signal (the black and white levels) and the vectorscope displays the chrominance (color) information of the video signal. Using these tools, one can make proper adjustments to the brightness, contrast, hue, and saturation of the video signal with the Time Base Corrector (TBC). Though not included in this video kit, an ideal video digitization station would include both external waveform monitors and vectorscopes to monitor the pre-digitized signal, as well as the digital versions of these scopes in vrecord and other softwares in order to ensure that the quality and integrity of the video signal is maintained during digitization. 
+For this digitization kit, we are using the BlackMagic Design UltraStudio Express capture card (https://www.bhphotovideo.com/c/product/857462-REG/Blackmagic_Design_BDLKULSDEXPRESS_UltraStudio_Express.html). This particular card can only be used with Mac computers as it requires a Thunderbolt connection. This capture card also comes with its own video digitization software called BlackMagic Media Express, but it can be used with other digitization softwares as well. 
+
 
 ## Cables and Connectors
 So you have all of the equipment listed in this document, but how do you assemble them into a digitization station? That's where cables and connectors come in! The brand and type of each piece of equipment you use will determine what kinds of video and audio cables and conntectors you will need. You may need BNC cables for the video and XLR for the audio, or maybe there are some RCA inputs and outputs in your system, or possibly S-Video! Plus you might need a ThunderBolt or FireWire connection going into your computer! To identify different types of cables and connectors and determine which you will need for your digitization station, The Cable Bible is a fantastic resource. 
