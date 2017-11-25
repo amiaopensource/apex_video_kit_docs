@@ -97,8 +97,10 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 	
 ## Step 6: How do I check my work?
 
-QCTools? MediaInfo?
+* **How do I look make sure the picture isn't clipping?**
+	"Clipping" refers to the loss of picture information outside of broadcast range. Any values outside of this range become pure white or pure black, losing the gradients present in the source tape. The free and open source tool [QCTools](https://www.bavc.org/preserve-media/preservation-tools/qctools) is great for checking files to find values outside of broadcast range (QCTools does lots of other stuff too, like help you spot artifacts such as [dropout](https://bavc.github.io/avaa/artifacts/video_dropout.html)). The graphs visible in the GUI version of the software gives you a nice "macro perspective" of the whole file, giving you a general idea of how high the levels are. The playback filters, which you open by clicking on the thumbnail images at the bottom of the GUI let you spot check more percisely. To see values outside of broadcast range highlighted, use the "Broadcast Range Pixels" filter, or, to only see parts of the image that are outside of broadcast range use the "Broadcast Illegal Focus" filter.
 
+MediaInfo?
 
 ## Step 7: How do I share?
 
