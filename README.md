@@ -23,7 +23,7 @@ Estos documentos son un anexo del video kit móvil creado para el Audiovisual Pr
 
 Puede ver más sobre el programa APEX aquí: www.apexnyu.wordpress.com
 
-En esta documentacin encontrará:
+En esta documentación encontrará:
 - Una lista y descripción de todos los ítems en el kit
 - Un flujo de trabajo de digitalización de video con descripciones paso a paso
 - Conceptos básicos de preservación digital para proteger tus colecciones digitalizadas.
@@ -32,4 +32,4 @@ Esta documentación fue creada para el AMIA AV Archiving Fair (New Orleans 2017)
 
 NOTA IMPORTANTE
 
-Este kit está diseñado sólo con propósitos educacionales y de demostración, pues ilustra los componentes básicos de una cadena de digitalización de forma de que los usuarios puedan entender los conceptos destrás de la digitalización de video. Hay kuchos aspectos relacionados a las estaciones de digitalización y sus componentes pueden variar dependiendo de varios factores, los que ciertamente afectan la calidad de los videos digitales resultantes.
+Este kit está diseñado sólo con propósitos educacionales y de demostración, pues ilustra los componentes básicos de una cadena de digitalización de forma de que los usuarios puedan entender los conceptos destrás de la digitalización de video. Hay muchos aspectos relacionados a las estaciones de digitalización y sus componentes pueden variar dependiendo de varios factores, los que ciertamente afectan la calidad de los videos digitales resultantes.
