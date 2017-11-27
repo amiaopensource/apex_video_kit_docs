@@ -50,21 +50,8 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 	So many cables! You want to make sure you have the right connectors for your playback device and your analog-to-digital converter (more on those in Step 4). When finding equipment, take note of connector types, so that you can get signal from end-to-end. Check out the [AMIA Open Source Cable Bible](https://amiaopensource.github.io/cable-bible/) for help ID-ing cables.
 
 
-## Step 3: How do I monitor what I’m digitizing?
 
-* **How does it sound?**
-	
-	Playback devices will often have “meters” that show sound levels of the media being played back. Better still, look for a headphone output so you can listen in. Best case scenario, run the audio from the playback device through a mixer so you can monitor and adjust audio independent of the playback device.
-	
-* **What does it look like?**
-	
-	Send the video signal to a monitor before sending it to the computer so you can see the picture as it is playing back. Consider using a distribution amplifier to split the video signal, so you can send one signal directly to the computer and one signal to the monitor.
-* **How does it look?**
-	
-	Use objective measurements to assess the video signal, not your eye. Waveform monitors and vectorscopes are the best way to do this, if you have access to them. If you don’t have these devices, use a digital waveform monitor and vectorscope in your video capture software (more on software in the next step).
-	
-	
-## Step 4: How do I get it in the computer?
+## Step 3: How do I get it in the computer?
 
 * **What do I need?**
 	
@@ -87,6 +74,22 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 	
 	Most capture software is unfortunately hardware dependent, so best to make a choice on an A/D first (if you need one). Budget, but also media type, will be the two biggest factors in selecting a device. Check out the [Minimum Viable Station Documentation](https://ablwr.github.io/blog/2016/12/02/minimum-viable-transfer-station-documentation/) on Ashley Blewer’s website for recommendations.
 
+
+
+## Step 4: How do I monitor what I’m digitizing?
+
+* **How does it sound?**
+	
+	Playback devices will often have “meters” that show sound levels of the media being played back. Better still, look for a headphone output so you can listen in. Best case scenario, run the audio from the playback device through a mixer so you can monitor and adjust audio independent of the playback device.
+	
+* **What does it look like?**
+	
+	Send the video signal to a monitor before sending it to the computer so you can see the picture as it is playing back. Consider using a distribution amplifier to split the video signal, so you can send one signal directly to the computer and one signal to the monitor.
+* **How does it look?**
+	
+	Use objective measurements to assess the video signal, not your eye. Waveform monitors and vectorscopes are the best way to do this, if you have access to them. If you don’t have these devices, use a digital waveform monitor and vectorscope in your video capture software (more on software in the next step).
+	
+	
 
 ## Step 5: How do I create a video file?
 
