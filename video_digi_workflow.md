@@ -110,16 +110,21 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 	
 ## Step 6: How do I check my work?
 
-* **How do I look make sure the picture isn't clipping?**
+* **How do I make sure the picture isn't clipping?**
 	
 	"Clipping" refers to the loss of picture information outside of broadcast range. Any values outside of this range become pure white or pure black, losing the gradients present in the source tape. The free and open source tool [QCTools](https://www.bavc.org/preserve-media/preservation-tools/qctools) is great for checking files to find values outside of broadcast range (QCTools does lots of other stuff too, like help you spot artifacts such as [dropout](https://bavc.github.io/avaa/artifacts/video_dropout.html)). The graphs visible in the GUI version of the software gives you a nice "macro perspective" of the whole file, giving you a general idea of how high the levels are. The playback filters, which you open by clicking on the thumbnail images at the bottom of the GUI let you spot check more precisely. To see values outside of broadcast range highlighted, use the "Broadcast Range Pixels" filter, or, to only see parts of the image that are outside of broadcast range use the "Broadcast Illegal Focus" filter.
 
-MediaInfo?
+* **How do I make sure I created the right files?**
+
+	Another way to check files to make sure their technical specifications are correct - such as wrapper, codec, sampling and others - is to use [MediaInfo](https://mediaarea.net/en/MediaInfo). This free software can be used both from the command line and via a GUI (or General User Interface).  
 
 ## Step 7: How do I share?
 
-Privacy/copyright concerns
-Recommended formats for streaming
+* **How do I create files to share in other platforms?**
+	When we digitize content we create what we call the "preservation masters", which means that we have captured the best quality image and sound possible (according to our specifications and possibilities). However, these files are not always suitable for uploading or sharing in common platforms such as YouTube, Facebook, or others, since they are often very large (normally several gigabites, depending on file format and duration). For this purpose, you may want to create "derivatives", i.e. compressed, lower resolution copies of your preservation masters. Derivatives can be used for editing or publishing, which allows you to keep preservation masters safe and untouched. Most video editing software have tools or plugins to create transcodes. Some free options include [FFmpeg](https://www.ffmpeg.org/) (a command line tool) and [MPEG Streamclip](http://www.squared5.com/). If FFmpeg is your choice, [ffmprovisr](https://amiaopensource.github.io/ffmprovisr/) is a great guide! In terms of format selection, there's many options but MPEG-4 is a common codec used to publish audiovisual media online.
+	
+* **Am I allowed to publish this content?**	
+	Before publishing any content online you should determine if there's any privacy or copyright issues associated with it. To publish copyrighted content you must have the permissions of the copyright owners (or pay for the appropriate licenses). However, it is very common to find materials which copyright status is unclear or unknown. Some of these may even fall under the definition of [Orphan Work](https://en.wikipedia.org/wiki/Orphan_film). 
 
 
 
