@@ -97,5 +97,6 @@ The basic aspects to consider in file formats are:
 ### File Format Normalization or Migration
 
 ## Additional Resources
-The National Digital Stewardship Alliance's (NDSA) Levels of Digital Preservation: 
+The National Digital Stewardship Alliance's (NDSA) Levels of Digital Preservation: http://www.digitalpreservation.gov:8081/ndsa/activities/levels.html
+The Library of Congress's research on the sustainability of digital formats: https://www.loc.gov/preservation/digital/formats/
 
