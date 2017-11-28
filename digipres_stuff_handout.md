@@ -5,7 +5,7 @@ Last Updated November 2017
 ## Introduction
 <img src="https://github.com/amiaopensource/apex_video_kit_docs/blob/master/digipres_images/a85.jpg" alt="There is no escape from digital preservation!" width="400">
 
-Welcome to the world of digital preservation! Whether you find yourself working with born-digital video content or analog material that has been digitized, understanding the principles of digital preservation is key to maintaining an accessible collection and preserving it over the long-term. Digital preservation sometimes requires a different way of thinking that may not seem intuitive to those familiar with preservation practices for analog materials. But not to worry, many of the core principles of preserving non-digital materials still apply to digital.
+Welcome to the world of digital preservation! On a long enough timeline there is no escape from dealing with digital files in archival collections. Whether you find yourself working with born-digital video content or analog material that has been digitized, understanding the principles of digital preservation is key to maintaining an accessible collection and preserving it over the long-term. Digital preservation sometimes requires a different way of thinking that may not seem intuitive to those familiar with preservation practices for analog materials. But not to worry, many of the core principles of preserving non-digital materials still apply to digital.
 
 Institutions that are putting significant amounts of time and money into digitization programs or projects must ensure that the files they receive are well-taken care of. Otherwise, those hard-earned files risk becoming inaccessible (and the digitization process was all for naught). Unlike analog formats such as film and videotape, digital files will not persist through "benign neglect". Data on a hard drive that's left untouched on a shelf for twenty years stands little chance of actually being saved. Digital materials require a series of ongoing maintenance activities if they are to persist over time.
 
@@ -42,28 +42,29 @@ Digital preservationists must monitor consider the file formats they acquire for
 ### Data Loss
 Data loss may refer to catastrophic events that could destroy physical equipment like computers, servers, or hard drives. Data deletion or data modification could also be the result of malicious hacking. Just as a flood, hurricane, or tornado could destroy collection materials like books and paper, these natural disasters can impact the safety of data as well if proper measures are not taken. 
 
-Libraries, museums, and archives typically have measures for protecting their physical materials in the event of a disaster. However, every cultural heritage institution must also consider its digital components in its disaster plan. Institutions may need to consider their network security protocols and the security of their digital files as well.
+Libraries, museums, and archives typically have measures for protecting their physical materials in the event of a disaster. However, every cultural heritage institution must also consider its digital components in its disaster plan. Institutions may need to consider their network security protocols and the security of their digital files as well. How well are the computers where you store your files protected from natural disasters? How secure are these computer and storage systems?
 
 ## Digital Preservation Strategies
 The following strategies respond to the threats outlined above. Following these strategies allows cultural heritage institutions to store data safely for the long haul.
 
 ### Redundant Storage (aka "Backing Up")
+As far as archivists are concerned, perhaps the single greatest advantage of materials is the abilty to make an infinite number of copies with 100% fidelity to the original. It's kind of like their superpower. The single most effective action one can take when trying to preserve digital files is to make multiple exact copies. Taking this step can mitigate both bit flipping and catatrosphic data loss. Backing up is a powerful preservation measure. 
 
-#### Gold Standard for Redundant Storage
-Three identical copies, in three geographically separated locations, on different types of storage media
+#### Best Practice for Redundant Storage
+Archivists have determined that keeping three identical copies of files, in three geographically separated locations . This prevents a situation where a natual disaster destroys all copies of a collection itme. It is generally preferred that the three copies be stored on different types of storage media. For example, one copy could exist on a spinning disk hard drive, one copy on a solid state hard drive, and yet another on an LTO data tape.
 
 ## Checking the Data Integrity of Files
+Intergrity (or fixity) checks are periodic attempts to determine if a copy of a file is an exact copy, or if the bits of a file have changed over time. In order to accomplish this feat, specialized values called "checksums" (also sometimes called " hashes") are used to compare files.
 
 ### What is a Checksum?
-A checksum is like a file's fingerprint. If one bit of the file changes, the checksum will change dramatically
+A checksum is an algorithm (a process ) that calculates a unique alphanumeric value based on the file's contents. A checksum is a bit like a file's fingerprint, however, it is event more unqiue. If one bit of the file changes, the checksum will change dramatically
 
-![](https://github.com/amiaopensource/apex_video_kit_docs/blob/master/digipres_images/Checksum.svg)
+<img src="https://github.com/amiaopensource/apex_video_kit_docs/blob/master/digipres_images/Checksum.svg" alt="Checksum image" width="400">
+![]()
 
 ### Why create Checksums?
 ### Checksum Algorithms
-#### MD5
-#### SHA1
-#### SHA2 (aka SHA256)
+Know which algorithm produced a checksum is critical. Future checksum verification requires the use of the same algorithm to get the same result. Two checksum algorithms currently in use by archives are MD5 (Message Digest 5) and SHA-1 (Secure Hash Algorithm 1). An MD5 checksum is significantly faster to calculate. However, there is a trade off. A checksum collision (two files with different data producing the exact same checksum) is more likely with MD5 than with SHA-1.
 
 ### Scheduling Fixity Checks
 Collecting and storing the data about fixity checks over time ensures the authenticity of the file. With this information, the archive can prove an unbroken chain of custody. By collecting regular fixity data they can prove that the file they have stored in 2050 is exactly the same as the file they received from the creator in 2017. 
@@ -86,3 +87,7 @@ A well-thought-out directory structure will be easily understandable by future u
 ### Why is a Choice of File Format Important?
 ### What to Look for in a File Format
 ### File Format Normalization or Migration
+
+## Additional Resources
+The National Digital Stewardship Alliance's (NDSA) Levels of Digital Preservation: 
+
