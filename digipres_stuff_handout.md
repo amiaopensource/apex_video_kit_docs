@@ -1,16 +1,22 @@
 # Digital Preservation Basics
-Written by [Jonathan Farbowitz](https://jfarbowitz.github.io/)
-
+Written by [Jonathan Farbowitz](https://jfarbowitz.github.io/)</br>
 Last Updated November 2017
 
-## Introduction: There Is No Escape
-![](https://github.com/amiaopensource/apex_video_kit_docs/blob/master/digipres_images/a85.jpg "There is no escape from digital preservation!")
+## Introduction
+<img src="https://github.com/amiaopensource/apex_video_kit_docs/blob/master/digipres_images/a85.jpg" alt="There is no escape from digital preservation!" width="400">
 
-Welcome to the world of digital preservation! Whether you find yourself working with born-digital video content or analog material that has become digital through digitization, understanding the principles of digital preservation is key to maintaining an accessible collection and preserving it long-term. Digital preservation sometimes requires a different way of thinking that may not seem intuitive to those familiar with the preservation practices for analog materials. But not to worry, many of the core principles of preserving non-digital materials still apply to digital.
+Welcome to the world of digital preservation! Whether you find yourself working with born-digital video content or analog material that has been digitized, understanding the principles of digital preservation is key to maintaining an accessible collection and preserving it over the long-term. Digital preservation sometimes requires a different way of thinking that may not seem intuitive to those familiar with preservation practices for analog materials. But not to worry, many of the core principles of preserving non-digital materials still apply to digital.
 
-Institutions that are putting significant amounts of time and money into digitization programs or projects must ensure that the files they receive are well-taken care of. Otherwise those hard-earned files can become inaccessible. Unlike analog formats like film and videotape, digital files will not persist through "benign neglect". Data on a hard drive that's left on a shelf for twenty years stands little chance of actually being saved for reasons which will be discussed below. Digital materials require a series of ongoing maintenance activities if they are to persist over time.
+Institutions that are putting significant amounts of time and money into digitization programs or projects must ensure that the files they receive are well-taken care of. Otherwise, those hard-earned files risk becoming inaccessible (and digitization was all for naught). Unlike analog formats such as film and videotape, digital files will not persist through "benign neglect". Data on a hard drive that's left untouched on a shelf for twenty years stands little chance of actually being saved. Digital materials require a series of ongoing maintenance activities if they are to persist over time.
 
 This handout will describe the threats to digital information and the strategies that archivists and IT professionals have developed to mitigate those threats.
+
+## Quick Tips for Digital Preservation 
+1. **Keep multiple backup copies of all digital files** (ideally in three copies in three different geographic locations). For more information, see the section on backup
+2. **Use a consistent file naming system**. The most important part of a filename is that it should be unique. For more information, see the section on filenaming and directory structure.
+3. **Store your files in a consistent and easy-to-understand directory structure**. Try to make it as easy to understand as possible, put yourself in the shoes of someone who doesn't work your institution and see if they would be able to figure it out. For more information, see the section on filenaming and directory structure.
+4. **If possible, create checksums for all files in your collection and check them at regularly scheduled intervals.** This will ensure the integrity of your files. For more information, see the section on File Fixity. 
+5. **Use sustainable file formats and monitor formats for obsolescence**. For more information, see the sections on sustainable file formats and obsolescence.  
 
 ## Threats to Digital Information
 Like vinegar syndrome, sticky shed syndrome, and mold, digital information has its own set of risk factors that threaten long-term preservation. 
