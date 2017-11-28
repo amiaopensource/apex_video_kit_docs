@@ -79,3 +79,7 @@ In order to digitize video, you need a computer and software that is compatible 
 Another option is [vrecord](https://github.com/amiaopensource/vrecord), which is free and open source software for analog tape digitization written by archivists for archivists. Currently, vrecord can only be used with BlackMagic capture cards, but it is constantly being updated and may be compatible with other cards in the future. Though vrecord currently only runs on Macs, there are other open source digitization softwares like [VirtualDub](https://www.av-rd.com/projects/2017-virtualdub_ffv1.html) being developed for Windows computing environments that may soon be available.
 
 One thing to consider when choosing a digitization software is the file format you want to use for your digitized video files. Different capture softwares will be able to encode to different file formats. 
+
+## Here's what the APEX video kit looks like when it is all put together!
+<img src="https://github.com/amiaopensource/apex_video_kit_docs/blob/master/videokit_images/APEX_video_kit.jpg" alt="APEX Video Digitization Station">
+
