@@ -1,7 +1,6 @@
 # Explanation of Video Kit Elements
 
-Written by [Savannah Campbell](https://github.com/savcampbell).
-
+Written by [Savannah Campbell](https://github.com/savcampbell).</br>
 Last updated November 2017. 
 
 ## Equipment List
