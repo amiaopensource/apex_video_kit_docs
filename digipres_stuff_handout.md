@@ -70,7 +70,7 @@ The original file can also be checked over time. The same file should always pro
 Knowing which algorithm produced a checksum is critical. Future checksum verification requires using the same algorithm to get the same result. Two checksum algorithms currently in use by archives are MD5 (Message Digest 5) and SHA-1 (Secure Hash Algorithm 1). An MD5 checksum is significantly faster to calculate. However, there is a trade off. A checksum collision (two files with different data producing the exact same checksum) is more likely with MD5 than with SHA-1.
 
 ### Scheduling Fixity Checks
-Collecting and storing the data about fixity checks over time ensures the authenticity of the file. With this information, the archive can prove an unbroken chain of custody. By collecting regular fixity data they can prove that a file sitting on their storage system in 2050 is exactly the same as the file they received from its creator in 2017. 
+Collecting and storing the data about fixity checks over time ensures the authenticity of the file. With this information, the archive can prove an unbroken chain of custody. By collecting regular fixity data they can prove that a file sitting on a storage system in 2050 is exactly the same as the file that they received from its creator in 2017. 
 
 ## File Naming and Directory Structure
 Files that cannot be found in a filesystem are as good as lost. Additionally, if archivists and researchers cannot understand the context of the file  (for example which hard drive a file came from) it's also as good as lost. In order to prevent this situation from happening, archivists must create unique filenames within an easy-to-understand directory stucture.
@@ -87,14 +87,18 @@ Choice of file formats can have a big impact on future preservation decisions fo
 Wise selection of file formats can migitigate against obsolesence issues.
 
 ### Compression vs. Lossless Compression vs. No Compression
+File compression discards data (lossy) or writes data in a more concise way without discarding anything (lossless). An example of lossy compression is an MP3 or an MP4 file. An example of lossless compression is an FFV1 file or a ZIP file. Compressed files depend on a program that will decompress them to make them readable to the computer. In addition, any bit flipping in a compressed file is more likely to cause a glitch than in an uncompressed file. This is due to the fact that each byte of the compressed file holds more unique information (there is more redundancy in the uncompressed file).    
+
+In order to prevent a dependency on decoder software or increased suseptibilty to data rot, some institutions have chosen not to use any kind of compression on their preservation master files. The tradeoff is that uncompressed files require more storage space, often significantly more. 
+
 ### What to Look for in a File Format
 The basic aspects to consider in file formats are: 
 * **Openness** - Does one company control the format (is it proprietary)? Is the format open source? Open source formats may have more of a life than proprietary formats.
 * **Documentation** - Is the format well-documented? Are the specifications for how to create a file in the given format easy to find? If these specifications are easy to find there’s a chance of a programmer building software in the future to read the format. Good documentation also typically means that the format is well-standardized. 
-* **Self-descriptiveness** - How good is the format’s metadata? How well does it describe the playback specifications of the file? Some files have very little technical metadata embedded within them (for example on older video formats the aspect ratio wasn’t specified so the video player would just guess at how to present the file). In general, more technical metadata within a file is better. Technical metadata needs to specify at minimum - framerate, interlacing, aspect ratio, resolution.
+* **Self-descriptiveness** - How well does the format's metadata describe the playback specifications of the file? Some files have very little technical metadata embedded within them (for example on older video formats the aspect ratio wasn’t specified so the video player would just guess at how to present the file). In general, more technical metadata within a file is better. Technical metadata within a file needs to specify at minimum - framerate, interlacing, aspect ratio, resolution.
 * **Universality/Ubiquity** - How universal or ubiquitious is the file format? Is it being used in the real world? Is it being used in the video production world? Does good software out there for encoding/decoding the format?
 
-### File Format Normalization or Migration
+The best file formats will be open, well-documented, self-descriptive, and uquititous. These formats stand the best chance of long-term survival.
 
 ## Additional Resources
 The National Digital Stewardship Alliance's (NDSA) Levels of Digital Preservation: http://www.digitalpreservation.gov:8081/ndsa/activities/levels.html
