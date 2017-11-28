@@ -61,6 +61,8 @@ A checksum is an algorithm (a series of mathematical and logical operations) tha
 
 <img src="https://github.com/amiaopensource/apex_video_kit_docs/blob/master/digipres_images/Checksum.svg" alt="Checksum image" width="400">
 
+The checksum is only based on the contents of the file. It isn't affected by the file's name and what folder it is stored in. Therefore, the file could be renamed or moved and will still produce the same checksum. 
+
 ### Why create Checksums?
 When an archive receives a new file it should immediately create a checksum for that file (assuming one hasn't already been created). Once the checksum has been identified, it can be used as an important reference for the life of the file. If copies of the file are made they can be compared against the checksum. If the copy produces the same checksum as the original file, the two files are identical. 
 
@@ -70,7 +72,9 @@ The original file can also be checked over time. The same file should always pro
 Knowing which algorithm produced a checksum is critical. Future checksum verification requires using the same algorithm to get the same result. Two checksum algorithms currently in use by archives are MD5 (Message Digest 5) and SHA-1 (Secure Hash Algorithm 1). An MD5 checksum is significantly faster to calculate. However, there is a trade off. A checksum collision (two files with different data producing the exact same checksum) is more likely with MD5 than with SHA-1.
 
 ### Scheduling Fixity Checks
-Collecting and storing the data about fixity checks over time ensures the authenticity of the file. With this information, the archive can prove an unbroken chain of custody. By collecting regular fixity data they can prove that a file sitting on a storage system in 2050 is exactly the same as the file that they received from its creator in 2017. 
+Collecting and storing the data about fixity checks over time ensures the authenticity of the file. With this information, the archive can prove an unbroken chain of custody. By collecting regular fixity data they can prove that a file sitting on a storage system in 2050 is exactly the same as the file that they received from its creator in 2017.
+
+Even though regular fixity checks are a good idea and can be automated, it may make sense to space them out. Fixity checks that are too frequent could cause excessive wear and tear to the storage media. Having very frequent fixity checks also increases the likelyhood of read/writer errors occuring. Depending on the size of the collection a once per week fixity check might be reasonable, so could once a month.  
 
 ## File Naming and Directory Structure
 Files that cannot be found in a filesystem are as good as lost. Additionally, if archivists and researchers cannot understand the context of the file  (for example which hard drive a file came from) it's also as good as lost. In order to prevent this situation from happening, archivists must create unique filenames within an easy-to-understand directory stucture.
