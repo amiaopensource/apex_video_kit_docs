@@ -25,6 +25,7 @@ This traveling video digitization station was designed to be small enough to fit
 
 ## Time Base Corrector
 <img src="https://github.com/amiaopensource/apex_video_kit_docs/blob/master/videokit_images/TBC.jpg" alt="Time Base Corrector" width="300">
+
 The "heartbeat" of the video digitization system, the Time Base Corrector (or TBC for short) is important for stabilizing and synchronizing the video signal during the transfer process. The TBC can also correct for some processing errors inherent to the original analog video signal, including compensating for minor dropout. With a TBC, one can also make adjustments to the video signal (and also the audio signal depending on the TBC), including adjusting the brightness, contrast, hue, and saturation. Making these signal adjustments with a TBC can help ensure the values of the video signal are within legal broadcast range. 
 
 The Time Base Corrector used in this video kit is the AV Toolbox AVT-8710 (available here: https://www.bhphotovideo.com/c/product/276891-REG/AV_Toolbox_AVT_8710_AVT_8710_Multi_Standard_Time_Base.html). It is a small and compact TBC that has less features than a more professional-grade TBC, but will get the job done. This particular TBC can only adjust video levels and not audio levels. 
@@ -33,6 +34,7 @@ Some professional video deck models have a Time Base Corrector built in. If you 
 
 ## Distribution Amplifier
 <img src="https://github.com/amiaopensource/apex_video_kit_docs/blob/master/videokit_images/distributionamplifier.png" alt="Distribution Amplifier" width="300">
+
 A distribution amplifier can send the same video signal to multiple locations simultaneously. For example, using a distribution amplifier, one can view a video on a monitor screen while also sending the same signal to a capture card for digitization. Regardless of how many places the signal is going, it will retain its strength and quality in each piece of equipment. 
 
 The distribution amplifier used in this kit can be found here: https://www.amazon.com/C2G-Cables-Go-41066-Distribution/dp/B0002J2Q10/
@@ -47,12 +49,14 @@ Scopes such as waveform monitors and vectorscopes are important tools for calibr
 
 ## Direct Box
 <img src="https://github.com/amiaopensource/apex_video_kit_docs/blob/master/videokit_images/directbox.jpg" alt="Direct Box" width="300">
+
 A direct box is used to convert unbalanced audio (such as from an RCA connection) to balanced left and right audio (such as from an XLR connection) for higher quality recordings. Depending on what kind of deck you are using to digitize and whether or not it is professional or consumer-grade, you may not need to use a direct box. If your deck has XLR outputs, a direct box is not necessary. If your deck only has RCA audio outputs, then it is recommended to use a direct box to create a balanced audio signal. 
 
 The direct box used in this kit can be found here: https://www.amazon.com/Pyle-Pro-PDC22-Instrument-Balanced-Unbalanced/dp/B0027V760M/
 
 ## Audio Mixer
 <img src="https://github.com/amiaopensource/apex_video_kit_docs/blob/master/videokit_images/audiomixer.jpg" alt="Audio Mixer" width="300">
+
 The audio mixer is used to make adjustments to the audio levels. This includes raising or lowering the audio levels (making them louder or quieter), adjusting the gain, and monitoring mono and stereo channels. Depending on what kind of TBC you are using, some of these adjustments could be made on the TBC instead of the audio mixer.
 
 The audio mixer used in this kit: https://www.amazon.com/YAMAHA-6-channel-mixing-console-MG06/dp/B00I0Q8JNQ/
@@ -62,6 +66,7 @@ The audio levels should be checked on both the pre-digitization and post-digitiz
 
 ## Capture Card
 <img src="https://github.com/amiaopensource/apex_video_kit_docs/blob/master/videokit_images/Blackmagic_Design__UltraStudio_Express.jpg" alt="Capture Card" width="300">
+
 This is where the magic happens! The capture card is the device that converts the video and audio signals from analog to digital information. There are different types of capture cards available that can work with different kinds of computers and software.
 
 For this digitization kit, we are using the BlackMagic Design UltraStudio Express capture card (https://www.bhphotovideo.com/c/product/857462-REG/Blackmagic_Design_BDLKULSDEXPRESS_UltraStudio_Express.html). This particular card can only be used with Mac computers as it requires a Thunderbolt connection. This capture card also comes with its own video digitization software called BlackMagic Media Express, but it can be used with other digitization software as well.
