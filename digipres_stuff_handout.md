@@ -12,7 +12,7 @@ Institutions that are putting significant amounts of time and money into digitiz
 This document will describe the threats to digital information and the strategies that archivists, librarians, and IT professionals have developed to mitigate those threats.
 
 ## Quick Tips for Digital Preservation 
-1. **Keep multiple backup copies of all digital files** (ideally in three copies in three different geographic locations). For more information, see the section on backup
+1. **Keep multiple backup copies of all digital files** (ideally in three copies in three different geographic locations). For more information, see the section on ![backing up](https://github.com/amiaopensource/apex_video_kit_docs/blob/master/digipres_stuff_handout.md#redundant-storage-aka-backing-up)
 2. **Use a consistent file naming system**. The most important part of a filename is that it should be unique. For more information, see the section on filenaming and directory structure.
 3. **Store your files in a consistent and easy-to-understand directory structure**. Try to make it as easy to understand as possible, put yourself in the shoes of someone who doesn't work your institution and see if they would be able to figure it out. For more information, see the section on filenaming and directory structure.
 4. **If possible, create checksums for all files in your collection and check them at regularly scheduled intervals.** This will ensure the integrity of your files. For more information, see the section on File Fixity. 
@@ -48,44 +48,52 @@ Libraries, museums, and archives typically have measures for protecting their ph
 The following strategies respond to the threats outlined above. Following these strategies allows cultural heritage institutions to store data safely for the long haul.
 
 ### Redundant Storage (aka "Backing Up")
-As far as archivists are concerned, perhaps the single greatest advantage of materials is the abilty to make an infinite number of copies with 100% fidelity to the original. It's kind of like their superpower. The single most effective action one can take when trying to preserve digital files is to make multiple exact copies. Taking this step can mitigate both bit flipping and catatrosphic data loss. Backing up is a powerful preservation measure. 
+Perhaps the single greatest advantage of materials is the abilty to make an infinite number of copies with 100% fidelity to the original. It's kind of like their superpower. One of the most effective actions archivists can take when trying to preserve digital files is to make multiple exact copies. Taking this step can mitigate both bit flipping and catatrosphic data loss. Backing up is a powerful preservation measure. 
 
 #### Best Practice for Redundant Storage
-Archivists have determined that keeping three identical copies of files, in three geographically separated locations . This prevents a situation where a natual disaster destroys all copies of a collection itme. It is generally preferred that the three copies be stored on different types of storage media. For example, one copy could exist on a spinning disk hard drive, one copy on a solid state hard drive, and yet another on an LTO data tape.
+Keeping three identical copies of files, in three geographically separated locations is considered best practice. This course of action prevents a situation where a natual disaster destroys all copies of a collection item. Ideally the three copies should be stored on different types of media. For example, one copy of a file could be stored on a spinning disk hard drive (HDD), one copy on a solid state drive (SSD), and yet another on an LTO data tape.
 
 ## Checking the Data Integrity of Files
 Intergrity (or fixity) checks are periodic attempts to determine if a copy of a file is an exact copy, or if the bits of a file have changed over time. In order to accomplish this feat, specialized values called "checksums" (also sometimes called " hashes") are used to compare files.
 
 ### What is a Checksum?
-A checksum is an algorithm (a process ) that calculates a unique alphanumeric value based on the file's contents. A checksum is a bit like a file's fingerprint, however, it is event more unqiue. If one bit of the file changes, the checksum will change dramatically
+A checksum is an algorithm (a series of mathematical and logical operations) that calculates a unique alphanumeric value based on the contents of a file. A checksum is a little like a file's fingerprint, however, it is event more unqiue than a fingerprint. If one bit of the file changes, the checksum will change dramatically as in the image below:
 
 <img src="https://github.com/amiaopensource/apex_video_kit_docs/blob/master/digipres_images/Checksum.svg" alt="Checksum image" width="400">
-![]()
 
 ### Why create Checksums?
+When an archive receives a new file it should immediately create a checksum for that file (assuming one hasn't already been created). Once the checksum has been identified, it can be used as an important reference for the life of the file. If copies of the file are made they can be compared against the checksum. If the copy produces the same checksum as the original file, the two files are identical. 
+
+The original file can also be checked over time. The same file should always produce the same checksum if its contents have not changed.   
+
 ### Checksum Algorithms
-Know which algorithm produced a checksum is critical. Future checksum verification requires the use of the same algorithm to get the same result. Two checksum algorithms currently in use by archives are MD5 (Message Digest 5) and SHA-1 (Secure Hash Algorithm 1). An MD5 checksum is significantly faster to calculate. However, there is a trade off. A checksum collision (two files with different data producing the exact same checksum) is more likely with MD5 than with SHA-1.
+Knowing which algorithm produced a checksum is critical. Future checksum verification requires using the same algorithm to get the same result. Two checksum algorithms currently in use by archives are MD5 (Message Digest 5) and SHA-1 (Secure Hash Algorithm 1). An MD5 checksum is significantly faster to calculate. However, there is a trade off. A checksum collision (two files with different data producing the exact same checksum) is more likely with MD5 than with SHA-1.
 
 ### Scheduling Fixity Checks
-Collecting and storing the data about fixity checks over time ensures the authenticity of the file. With this information, the archive can prove an unbroken chain of custody. By collecting regular fixity data they can prove that the file they have stored in 2050 is exactly the same as the file they received from the creator in 2017. 
+Collecting and storing the data about fixity checks over time ensures the authenticity of the file. With this information, the archive can prove an unbroken chain of custody. By collecting regular fixity data they can prove that a file sitting on their storage system in 2050 is exactly the same as the file they received from its creator in 2017. 
 
 ## File Naming and Directory Structure
-Files that cannot be found in a filesystem are as good as lost. And often in the digital world files that cannot be understood are as good as lost.
-
-If you're putting 
-
-### Why are File Naming and Directory Structure Important?
-If a particular file cannot be located within the filesystem or if future users cannot figure out what a file represents its as good as lost.
+Files that cannot be found in a filesystem are as good as lost. Additionally, if archivists and researchers cannot understand the context of the file  (for example which hard drive a file came from) it's also as good as lost. In order to prevent this situation from happening, archivists must create unique filenames within an easy-to-understand directory stucture.
 
 ### Best Practices for File Naming 
-The most important aspect of file naming is that every file should have a unique ID. 
+The most important aspect of file naming is that every file should have a unique identifier. In other words, no two filenames should be alike. In addition, special charcters such as @,#,$,%,&,\*, and + should be avoided in filenames. Particularly in Windows operating systems, these filenames can cause issues. The safest filenames use either all numbers, all lowercase letters, and use underscores or hyphens instead of spaces.  
 
 ### Best Practices for Directory Structure
-A well-thought-out directory structure will be easily understandable by future users. When determining a directory structure, engage in a short thought exercise: "If we all left this organization could future staff still find the files that they need?"
+A well-thought-out directory structure will be easily understandable by future users. When determining a directory structure, engage in a short thought exercise: "If we all left this organization, could future staff still find the files that they need?"
 
 ## File Formats
-### Why is a Choice of File Format Important?
+Choice of file formats can have a big impact on future preservation decisions for digital files. For organizations that get their collections digitized, they should think carefully about the target format they are digitizing to. For organizations that collect born-digital content they should assess the formats that they have to plan for future preservation actions.
+
+Wise selection of file formats can migitigate against obsolesence issues.
+
+### Compression vs. Lossless Compression vs. No Compression
 ### What to Look for in a File Format
+The basic aspects to consider in file formats are: 
+* **Openness** - Does one company control the format (is it proprietary)? Is the format open source? Open source formats may have more of a life than proprietary formats.
+* **Documentation** - Is the format well-documented? Are the specifications for how to create a file in the given format easy to find? If these specifications are easy to find there’s a chance of a programmer building software in the future to read the format. Good documentation also typically means that the format is well-standardized. 
+* **Self-descriptiveness** - How good is the format’s metadata? How well does it describe the playback specifications of the file? Some files have very little technical metadata embedded within them (for example on older video formats the aspect ratio wasn’t specified so the video player would just guess at how to present the file). In general, more technical metadata within a file is better. Technical metadata needs to specify at minimum - framerate, interlacing, aspect ratio, resolution.
+* **Universality/Ubiquity** - How universal or ubiquitious is the file format? Is it being used in the real world? Is it being used in the video production world? Does good software out there for encoding/decoding the format?
+
 ### File Format Normalization or Migration
 
 ## Additional Resources
