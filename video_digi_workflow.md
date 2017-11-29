@@ -116,7 +116,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 * **How do I make sure I created the right files?**
 
-	Another way to check files to make sure their technical specifications are correct - such as wrapper, codec, sampling and others - is to use [MediaInfo](https://mediaarea.net/en/MediaInfo). This free software can be used both from the command line and via a GUI (or General User Interface).  
+	Another way to check files to make sure their technical specifications are correct - such as wrapper, codec, sampling and others - is to use [MediaInfo](https://mediaarea.net/en/MediaInfo). This free software can be used both from the command line and via a GUI (or Graphical User Interface).  
 
 ## Step 7: How do I share?
 
