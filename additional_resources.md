@@ -5,6 +5,7 @@
 * [Cable Bible](https://github.com/amiaopensource/cable-bible)
 * [QCTools](https://www.bavc.org/preserve-media/preservation-tools/qctools)
 * [Minimum Viable Station](https://ablwr.github.io/blog/2016/12/02/minimum-viable-transfer-station-documentation/)
+* [RADD / Recovering Analog and Digital Data](https://radd.dsalo.info/)
 
 
 ## File and Data Management
@@ -23,3 +24,6 @@
 * [AVCC](https://www.avpreserve.com/products/avcc/)
 * [AV Compass](http://www.avcompass.bavc.org/)
 
+## AMIA Open Workflows
+
+You can also visit the [AMIA Open Workflows](https://github.com/amiaopensource/open-workflows) GitHub page for additional documentation, scripts and tools!
