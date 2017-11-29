@@ -88,13 +88,18 @@ The most important aspect of file naming is that every file should have a unique
 ### Best Practices for Directory Structure
 A well-thought-out directory structure will be easily understandable by future users. When determining a directory structure, engage in a short thought exercise: "If we all left this organization, could future staff still find the files that they need?"
 
+## Refreshing Storage Media
+All physical storage media like hard drives and disks has a limited lifespan. Storage media also becomes obsolete over time. In order to combat these risks, files must be periodically **refreshed**. This means copying files from older storage media to newer storage media. Of course, any copying requires checksum verification after the copying takes place to ensure that the new storage media has exact copies of the files. 
+
 ## File Formats
 Choice of file formats can have a big impact on future preservation decisions for digital files. Organizations that have analog materials digitized should think carefully about the target format they are digitizing to. Organizations that collect born-digital content that was never analog in the first place should assess the formats that they have in their collections to plan for future preservation actions.
 
 Wise selection of file formats can migitigate against format obsolesence issues.
 
 ### Compression vs. Lossless Compression vs. No Compression
-File compression discards data (lossy) or writes data in a more concise way without discarding anything (lossless). An example of lossy compression is an MP3 or an MP4 file. An example of lossless compression is an FFV1 file or a ZIP file. Compressed files depend on a program that will decompress them to make them readable to the computer. In addition, any bit flipping in a compressed file is more likely to cause a glitch than in an uncompressed file. This is due to the fact that each byte of the compressed file holds more unique information (there is more redundancy in the uncompressed file).    
+File compression discards data (lossy compression) or writes data in a more concise way without discarding anything (lossless compression). An example of lossy compression is an MP3 or an MP4 file. An example of lossless compression is an FFV1 file or a ZIP file. Compressed files depend on a program that will decompress them to make them readable to the computer. This is an additional dependency. 
+
+In addition, any bit flipping in a compressed file is more likely to cause a glitch than in an uncompressed file. This is due to the fact that each byte of the compressed file holds more unique information (there is more redundancy in the uncompressed file).    
 
 In order to prevent a dependency on decoder software or increased suseptibilty to data rot, some institutions have chosen not to use any kind of compression on their preservation master files. The tradeoff is that uncompressed files require more storage space, often significantly more. 
 
@@ -108,7 +113,9 @@ The basic aspects to consider in file formats are:
 The best file formats will be open, well-documented, self-descriptive, and uquititous. These formats stand the best chance of long-term survival.
 
 ### File Format Migration and Normalization
-An archive may chose to **normalize** its files. This means that when ingested, they will transform the file into a different format (while keeping the original file). Normalization is a strategy meant to reduce the danger of file format obsolesence. For example, Word documents may be turned into PDF files.
+An archive may chose to **normalize** its files. This means that when the file, it will be transcoded into a different format (while keeping the original file). Normalization is a strategy meant to reduce the danger of file format obsolesence. For example, Word documents may be turned into PDF files. The PDF format is more open than Word and it may benefit researchers to browse file formats that they can easily open. 
+
+Normalization is a form of **migration**. Migration means changing the format of a file. In practice, this typically means transcoding files from an obsolete format to a more contemporary format. One example might be migrating the audio content of a RealMedia file into a WAV file. Usually the original file is kept as well, but the migrated file may be the one that is presented to researchers. The difference between migration and normalization is that normalization is typically done when the file is brough into the collection. Migration typically occurs later.
 
 ## Additional Resources
 The National Digital Stewardship Alliance's (NDSA) Levels of Digital Preservation: http://www.digitalpreservation.gov:8081/ndsa/activities/levels.html
